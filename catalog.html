@@ -53,7 +53,37 @@
 		<!-- Фильтр -->
 		<section class="filter">
 			<h2>Фильтр</h2>
-			<!-- Здесь будет форма -->
+			<form action="" method="get" class="filter">
+				<fieldset>
+					<legend>Цена:</legend>
+					<input type="range" min="0" max="30000" step="500">
+				</fieldset>
+				<fieldset>
+					<legend>Производители</legend>
+					<ul>
+						<li class="filter-option">
+							<input type="checkbox" id="filter-bosch" class="visually-hidden filter-input filter-checkbox" name="Bosch" checked>
+							<label for="filter-bosch">Bosch</label>
+						</li>
+						<li class="filter-option">
+							<input type="checkbox" id="filter-interskol" class="visually-hidden filter-input filter-checkbox" name="Interskol">
+							<label for="filter-interskol">Интерскол</label>
+						</li>
+						<li class="filter-option">
+							<input type="checkbox" id="filter-makita" class="visually-hidden filter-input filter-checkbox" name="Makita" checked>
+							<label for="filter-makita">Makita</label>
+						</li>
+						<li class="filter-option">
+							<input type="checkbox" id="filter-dewalt" class="visually-hidden filter-input filter-checkbox" name="Dewalt">
+							<label for="filter-dewalt">Dewalt</label>
+						</li>
+						<li class="filter-option">
+							<input type="checkbox" id="filter-hitachi" class="visually-hidden filter-input filter-checkbox" name="Hitachi">
+							<label for="filter-hitachi">Hitachi</label>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
 		</section>
 		<!-- // Фильтр -->
 		<!-- Список инструментов -->
