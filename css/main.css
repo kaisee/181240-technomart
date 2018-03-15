@@ -10,6 +10,7 @@ body {
 /* Header */
 
 .main-header {
+	font-family: "Cuprum";
 	background-color: #f3f7f8;
 }
 
@@ -31,6 +32,16 @@ a.header-logo {
 	text-align: center;
 	background-color: #ee3643;
 	box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+	cursor: pointer;
+}
+
+a.header-logo:hover,
+a.header-logo:focus {
+	background-color: #ca2c37;
+}
+
+a.header-logo:active {
+	background-color: #ba2732;
 }
 
 input[type="search"] {
@@ -41,7 +52,19 @@ input[type="search"] {
 	background-color: transparent;
 	outline: none;
 	border: none;
-	opacity: 1;
+}
+
+input[type="search"]:hover {
+	background-color: #212a3a;
+}
+
+input[type="search"]:focus {
+	background-color: #fff;
+	color: #000;
+}
+
+input[type="search"]:focus .order-registration {
+	background-color: #63a63e;
 }
 
 .user-block {
@@ -60,8 +83,26 @@ input[type="search"] {
 	text-decoration: none;
 }
 
-.order-registration {
+.user-block li a:hover,
+.user-block li a:focus {
+	background-color: #212a3a;
+}
+
+.user-block li a:active {
+	background-color: #161d29;
+}
+
+.user-block .order-registration {
+	background-color: #63a63e;
+}
+
+.user-block .order-registration:hover,
+.user-block .order-registration:focus {
 	background-color: #5fbb2d;
+}
+
+.user-block .order-registration:active {
+	background-color: #518534;
 }
 
 /* // Header Top Section*/
@@ -109,6 +150,15 @@ input[type="search"] {
 	text-decoration: none;
 }
 
+.header-contacts .login a:hover,
+.header-contacts .login a:focus {
+	color: #ee3643;
+}
+
+.header-contacts .login a:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
 /* // Header Middle Section*/
 
 
@@ -135,6 +185,16 @@ input[type="search"] {
 	line-height: 17px;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.site-navigation li a:hover,
+.site-navigation li a:focus {
+	background-color: #293449;
+	outline: 0;
+}
+
+.site-navigation li a:active {
+	color: rgba(255, 255, 255, 0.5);
 }
 
 /* // Header Navigation*/
