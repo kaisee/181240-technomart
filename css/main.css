@@ -411,7 +411,8 @@ input[type="search"]:focus .order-registration {
 }
 
 .popular-brands li.popular-brands-item {
-
+	list-style-type: none;
+	background-color: #eaeaea;
 }
 
 /* // Popular Brands*/
