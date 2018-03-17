@@ -273,7 +273,74 @@ p.login a {
 	background-color: #eaeaea;
 }
 
-/* ================ Popular Producers ================= */
+/* ================ // Popular Producers ================= */
+
+/* ================ Services ================= */
+
+.services {
+	background-color: #f4f8f9;
+}
+
+.services p {
+	font-family: "PT Sans";
+	font-size: 13px;
+	color: #000000;
+}
+
+.services-tabs {
+	margin: 0;
+	padding: 0;
+}
+
+.tab-item {
+	list-style: none;
+}
+
+.tab-item {
+	background-color: #32425c;
+	box-shadow: inset 0 -1px 0 #33445a;
+}
+
+.tab-item a {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tab-item-current a {
+	color: #32425c;
+	background-color: #ffffff;
+}
+
+.services-slides {
+
+}
+
+.services-slides div  {
+	width: 800px;
+}
+
+.services-slides .slide-title {
+	font-size: 36px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.services-slides p {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.delivery {	
+	background: url("../img/delivery.png") no-repeat top right;
+}
+
+
+
+/* ================ // Services ================= */
 
 .heading-group {
 	background-color: #f9f5f0;
