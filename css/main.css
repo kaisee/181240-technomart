@@ -116,4 +116,65 @@ p.login a {
 	text-decoration: none;
 }
 
-/* ===================== // Main Navigation ======================= */
+/* =============== // Main Navigation ================ */
+
+
+/* ================ Main Content ================= */
+
+.promo-block {
+
+}
+
+.promo-block-list {
+	margin: 0;
+	padding: 0;
+}
+
+.promo-block-item {
+	width: 300px;
+	height: 123px;
+	list-style: none;
+	color: #ffffff;
+}
+
+.promo-block-item:first-child {
+	background-color: #ffbf47;
+}
+
+.promo-block-item:nth-child(2) {
+	background-color: #3bbce3;
+}
+
+.promo-block-item:nth-child(3) {
+	background-color: #dc91d8;
+}
+
+.promo-block-item:nth-child(4) {
+	background-color: #8ed78f;
+}
+
+.promo-block-item:nth-child(5) {
+	background-color: #ffc047;
+}
+
+.promo-block-item h3 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.promo-block-item a {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 3px;
+}
+
+/* ================ Slider ================= */
+
+/* ================ // Slider ================= */
+
+/* ================ // Main Content ================= */
