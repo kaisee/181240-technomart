@@ -406,7 +406,86 @@ p.login a {
 	color: #ffd180;
 }
 
+.footer-contacts {
+	margin: 0;
+}
+
+.footer-bottom {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #fff;
+	background-color: #293449;
+}
+
+.footer-copywrite {
+
+}
+
+.footer-social {
+
+}
+
+.footer-social ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-social li {
+	list-style: none;
+}
+
+.footer-feedback a {
+	color: #ffd180;
+	text-decoration: none;
+}
+
+.footer-developer a {
+	color: #ffd180;
+	text-decoration: none;
+}
+
 /* ================ // Footer ================= */
+
+/* ================ Modal Map ================= */
+.modal-write-us {
+	width: 620px;
+	height: 430px;
+	box-shadow: 0 7px 0 0 #ff5357 inset,
+				0 20px 40px rgba(0, 0, 0, 0.75);
+}
+
+label {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 220px;
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #a9a9a9;
+	background-color: #dee3e4;
+	border: none;
+	border-radius: 3px;
+}
+
+textarea {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #a9a9a9;
+	background-color: #dee3e4;
+	border: none;
+	border-radius: 3px;
+}
+/* ================ // Modal Map ================= */
 
 .heading-group {
 	background-color: #f9f5f0;
