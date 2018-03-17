@@ -211,6 +211,51 @@ p.login a {
 
 /* ================ // Slider ================= */
 
+
+/* ================ Popular Products ================= */
+.popular-items-list {
+	margin: 0;
+	padding: 0;
+}
+
+.product-list-item {
+	width: 220px;
+	height: 318px;
+	background-color: #eaeaea;
+	list-style: none;
+	text-align: center;
+}
+
+.product-title {
+	font-family: "PT Sans";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.product-price {
+	font-family: "PT Sans";
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+.product-price .old-price {
+	color: #a9a9a9;
+	text-decoration: line-through;
+}
+
+.product-price .actually-price {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #ee3643;
+}
+/* ================ // Popular Products ================= */
+
 .heading-group {
 	background-color: #f9f5f0;
 }
