@@ -174,7 +174,51 @@ p.login a {
 }
 
 /* ================ Slider ================= */
+.slider {
+
+}
+
+.slider-inner {
+	margin: 0;
+	padding: 0;
+}
+
+.slide {
+	width: 620px;
+	height: 266px;
+	list-style: none;
+	color: #fff;
+}
+
+.slide:first-child {
+	background: #685c53 url("../img/slider-image-01.jpg") no-repeat top center;
+}
+
+.slide:nth-child(2) {
+	background: #685c53 url("../img/slider-image-02.jpg") no-repeat top center;
+}
+
+.slide h3 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.slide p {
+	font-size: 18px;
+	line-height: 24px;
+}
 
 /* ================ // Slider ================= */
+
+.button {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ee3643;
+	border-radius: 3px;
+}
 
 /* ================ // Main Content ================= */
