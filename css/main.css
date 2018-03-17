@@ -487,6 +487,11 @@ textarea {
 }
 /* ================ // Modal Map ================= */
 
+.modal-map {
+	width: 943px;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
+}
+
 .heading-group {
 	background-color: #f9f5f0;
 }
