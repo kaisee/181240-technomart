@@ -211,6 +211,22 @@ p.login a {
 
 /* ================ // Slider ================= */
 
+.heading-group {
+	background-color: #f9f5f0;
+}
+
+.heading-group span {
+	font-size: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.section-title {
+	font-size: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
 .button {
 	font-size: 14px;
 	line-height: 18px;
@@ -219,6 +235,7 @@ p.login a {
 	text-transform: uppercase;
 	background-color: #ee3643;
 	border-radius: 3px;
+	border: none;
 }
 
 /* ================ // Main Content ================= */
