@@ -353,7 +353,69 @@ input[type="search"]:focus .order-registration {
 	text-transform: uppercase;
 	background-color: #ee3643;
 }
+
+.popular-items-list {
+	margin: 0;
+	padding: 0;
+}
+
+.popular-items-list .product-item {
+	background-color: #eaeaea;
+}
+
+.popular-items-list .product-title {
+	text-decoration: none;
+}
+
+.product-title h3 {
+	font-family: "PT Sans";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #000000;
+}
+
+.product-price {
+
+}
+
+.product-price .old-price {
+	display: block;
+
+	font-family: "PT Sans";
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 18px;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	color: #a9a9a9;
+}
+
+.product-price .actually-price {
+	font-family: "PT Sans";
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #ee3643;
+}
+
 /* // Popular products */
 
+/* Popular Brands*/
 
-/* Основное содержание страницы */
+.popular-brands {
+	margin: 0;
+	padding: 0;
+}
+
+.popular-brands li.popular-brands-item {
+
+}
+
+/* // Popular Brands*/
+
+
+/* // Основное содержание страницы */
+
