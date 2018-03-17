@@ -1,70 +1,37 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: "PT Sans";
-	font-size: 14px;
+	font-family: Cuprum;
+	font-size: 16px;
+	line-height: 1;
 	font-weight: 400;
-	background-color: #fff;
+	color: #000000;
 }
 
-/* Header */
+/* ===================== Main Header ======================= */
 
 .main-header {
-	font-family: "Cuprum";
 	background-color: #f3f7f8;
 }
 
-/* Header Top Section*/
+/* ===================== Top Menu ======================= */
+
 
 .top-menu {
-	font-family: Cuprum;
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #ffffff;
+	color: #fff;
 	background-color: #293449;
 }
 
-a.header-logo {
+.main-logo {
 	font-size: 24px;
-	line-height: 1;
+	text-decoration: none;
 	text-transform: uppercase;
-	text-align: center;
 	background-color: #ee3643;
 	box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
-	cursor: pointer;
-}
-
-a.header-logo:hover,
-a.header-logo:focus {
-	background-color: #ca2c37;
-}
-
-a.header-logo:active {
-	background-color: #ba2732;
 }
 
 input[type="search"] {
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #ffffff;
+	color: #fff;
 	background-color: transparent;
-	outline: none;
 	border: none;
-}
-
-input[type="search"]:hover {
-	background-color: #212a3a;
-}
-
-input[type="search"]:focus {
-	background-color: #fff;
-	color: #000;
-}
-
-input[type="search"]:focus .order-registration {
-	background-color: #63a63e;
 }
 
 .user-block {
@@ -76,438 +43,31 @@ input[type="search"]:focus .order-registration {
 	list-style: none;
 }
 
-.user-block li a {
+.user-block a {
+	color: #fff;
 	font-size: 17px;
-	line-height: 18px;
-	color: #ffffff;
 	text-decoration: none;
-}
-
-.user-block li a:hover,
-.user-block li a:focus {
-	background-color: #212a3a;
-}
-
-.user-block li a:active {
-	background-color: #161d29;
 }
 
 .user-block .order-registration {
 	background-color: #63a63e;
 }
 
-.user-block .order-registration:hover,
-.user-block .order-registration:focus {
-	background-color: #5fbb2d;
-}
+/* ===================== // Top Menu ======================= */
 
-.user-block .order-registration:active {
-	background-color: #518534;
-}
 
-/* // Header Top Section*/
-
-/* Header Middle Section*/
-
+/* ===================== Info Section ======================= */
 .info-section {
 
 }
 
 .header-slogan {
-	font-size: 16px;
-	line-height: 24px;
+	line-height: 23px;
+	color: #ee3643;
 	font-style: italic;
-	color: #ee3643;
 }
-
-.header-contacts {
-
-}
-
-.header-contacts .header-phone {
-	font-size: 21px;
-	font-weight: 400;
-	line-height: 21px;
-	text-decoration: none;
-	background-color: #fff;
-	color: #ee3643;
-}
-
-.header-contacts p {
-	color: #32425c;
-}
-
-.header-contacts .login {
-
-}
-
-.header-contacts .login a {
-	font-size: 21px;
-	font-weight: 400;
-	line-height: 21px;
-	color: #000000;
-	background-color: #fff;
-	text-decoration: none;
-}
-
-.header-contacts .login a:hover,
-.header-contacts .login a:focus {
-	color: #ee3643;
-}
-
-.header-contacts .login a:active {
-	color: rgba(0, 0, 0, 0.3);
-}
-
-/* // Header Middle Section*/
-
-
-/* Header Navigation*/
+/* ===================== // Info Section ======================= */
 
 .main-navigation {
-	background-color: #32425c;
-	box-shadow: inset 0 -5px 0 #293449;
-}
-
-.main-navigation .site-navigation {
-	margin: 0;
-	padding: 0;
-	font-size: 0;
-}
-
-.site-navigation li {
-	list-style: none;
-}
-
-.site-navigation li a {
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 17px;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.site-navigation li a:hover,
-.site-navigation li a:focus {
 	background-color: #293449;
-	outline: 0;
 }
-
-.site-navigation li a:active {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-/* // Header Navigation*/
-
-
-/* Основное содержание страницы */
-
-.promo-block {
-
-}
-
-.promo-block-list {
-	margin: 0;
-	padding: 0;
-}
-
-.promo-block-item {
-	width: 300px;
-	height: 123px;
-	list-style: none;
-	color: #fff;
-	font-family: Cuprum;
-}
-
-.promo-block-item:nth-child(1) {
-	background-color: #ffbf47;
-}
-
-.promo-block-item:nth-child(2) {
-	background-color: #3bbce3;
-}
-
-.promo-block-item:nth-child(3) {
-	background-color: #dc91d8;
-}
-
-.promo-block-item:nth-child(4) {
-	background-color: #8ed78f;
-}
-
-.promo-block-item:nth-child(5) {
-	background-color: #ffc047;
-}
-
-.promo-block-item h3 {
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 30px;
-}
-
-.promo-block-item a {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
-	background-color: rgba(0, 0, 0, 0.1);
-	border-radius: 3px;
-}
-
-.promo-block-item a:hover,
-.promo-block-item a:focus {
-	background-color: rgba(0, 0, 0, 0.2);
-}
-
-.promo-block-item a:active {
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* Slider */
-.slider {
-	color: #fff;
-}
-
-.slider-inner {
-	margin: 0;
-	padding: 0;
-}
-
-.slide {
-	width: 620px;
-	height: 266px;
-}
-
-.slide:first-child {
-	background: url("../img/slider-image-01.jpg") no-repeat top center;
-}
-
-.slide:nth-child(02) {
-	background: url("../img/slider-image-02.jpg") no-repeat top center;
-}
-
-.slide h3 {
-	margin: 0;
-	font-family: Cuprum;
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-
-.slide p {
-	font-family: "PT Sans";
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-}
-
-.slider-button {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
-	background-color: #ee3643;
-	border-radius: 3px;
-}
-
-.slider .button:hover,
-.slider .button:focus {
-	background-color: #ca2c37;
-}
-
-.slider .button:active {
-	background-color: #ba2732;
-}
-/* // Slider */
-
-/* Popular products */
-.popular-items {
-
-}
-
-.heading-group {
-	background-color: #f9f5f0;
-}
-
-.heading-group span {
-	font-family: Cuprum;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 30px;
-	text-transform: uppercase;
-	color: #32425c;
-}
-
-.heading-group a {
-	font-family: Cuprum;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #ffffff;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #ee3643;
-}
-
-.popular-items-list {
-	margin: 0;
-	padding: 0;
-}
-
-.popular-items-list .product-item {
-	background-color: #eaeaea;
-}
-
-.popular-items-list .product-title {
-	text-decoration: none;
-}
-
-.product-title h3 {
-	font-family: "PT Sans";
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
-	color: #000000;
-}
-
-.product-price {
-
-}
-
-.product-price .old-price {
-	display: block;
-
-	font-family: "PT Sans";
-	font-size: 17px;
-	font-weight: 700;
-	line-height: 18px;
-	text-decoration: line-through;
-	text-transform: uppercase;
-	color: #a9a9a9;
-}
-
-.product-price .actually-price {
-	font-family: "PT Sans";
-	font-size: 17px;
-	font-weight: 700;
-	line-height: 18px;
-	text-transform: uppercase;
-	color: #ffffff;
-	background-color: #ee3643;
-}
-
-/* // Popular products */
-
-/* Popular Brands*/
-
-.popular-brands {
-	margin: 0;
-	padding: 0;
-}
-
-.popular-brands li.popular-brands-item {
-	list-style-type: none;
-	background-color: #eaeaea;
-}
-
-/* // Popular Brands*/
-
-/* Services */
-.services {
-	background-color: #f4f8f9;
-}
-
-.services h2 {
-	font-family: Cuprum;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-
-.services-tabs {
-	margin: 0;
-	padding: 0;
-}
-
-.services-tabs .tab-item {
-	list-style: none;
-	background-color: #32425c;
-	box-shadow: inset 0 -1px 0 #33445a;
-}
-
-.services-tabs .tab-item-current {
-	background-color: #ffffff;
-}
-
-.tab-item a {
-	font-family: Cuprum;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 30px;
-	text-decoration: none;
-	color: #ffffff;
-}
-
-.tab-item-current a {
-	font-family: Cuprum;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 30px;
-	color: #32425c;
-}
-
-.services-slides {
-
-}
-
-.services-slides b.slide-title {
-	font-family: Cuprum;
-	font-size: 36px;
-	font-weight: 400;
-	line-height: 36px;
-	color: #32425c;
-	text-transform: uppercase;
-}
-
-.delivery {
-	background: transparent url("img/delivery.png") no-repeat top center;
-}
-
-.guarantee {
-	background: transparent url("img/guarantee.png") no-repeat top center;
-}
-
-.credit {
-	background: transparent url("img/credit.png") no-repeat top center;
-}
-
-/* // Services */
-
-/*Company Info*/
-
-.company-information h2 {
-	font-family: Cuprum;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-
-.company-information ul {
-	margin: 0;
-	padding: 0;
-	font-family: Cuprum;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 20px;
-}
-
-
-/* // Основное содержание страницы */
-
