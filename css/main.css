@@ -338,9 +338,28 @@ p.login a {
 	background: url("../img/delivery.png") no-repeat top right;
 }
 
-
-
 /* ================ // Services ================= */
+
+/* ================ Information ================= */
+.information {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.company-information ul {
+	font-family: Cuprum;
+}
+
+.company-information li {
+	font-family: Cuprum;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+/* ================ // Information ================= */
 
 .heading-group {
 	background-color: #f9f5f0;
@@ -353,8 +372,10 @@ p.login a {
 }
 
 .section-title {
+	font-family: Cuprum;
 	font-size: 30px;
 	color: #000000;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
