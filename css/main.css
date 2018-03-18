@@ -404,6 +404,16 @@ p.login a:active {
 	border: 1px solid #eaeaea;
 }
 
+.popular-brands-item a:hover,
+.popular-brands-item a:focus {
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+}
+
+.popular-brands-item a:active {
+	box-shadow: 0 4px 10px rgba(41, 52, 73, 0.5);
+	opacity: 0.3;
+}
+
 /* ================ // Popular Producers ================= */
 
 /* ================ Services ================= */
