@@ -76,7 +76,8 @@ input[type="search"] {
 	font-size: 21px;
 	color: #ee3643;
 	text-decoration: none;
-	background-color: #ffffff;
+	background-color: transparent;
+	border: 3px solid #ffffff;
 }
 
 .header-contacts p {
@@ -93,8 +94,44 @@ p.login a {
 	background-color: #fff;
 }
 
+.login .user-name {
+	
+}
+
+.login ul.login-menu {
+	margin: 0;
+	padding: 0;
+}
+
+.login-menu li {
+	list-style: none;
+}
+
+.login-menu a {
+	line-height: 18px;
+	color: #32425c;
+}
+
 /* ===================== // Info Section ======================= */
 
+.breadcrumbs {
+	margin: 0;
+	padding: 0;
+}
+
+.breadcrumbs li {
+	list-style: none;
+}
+
+.breadcrumbs a {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 
 /* ===================== Main Navigation ======================= */
 .main-navigation {
@@ -222,9 +259,10 @@ p.login a {
 .product-list-item {
 	width: 220px;
 	height: 318px;
-	background-color: #eaeaea;
 	list-style: none;
 	text-align: center;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
 }
 
 .product-title {
@@ -257,7 +295,7 @@ p.login a {
 }
 /* ================ // Popular Products ================= */
 
-/* ================ Popular Products ================= */
+/* ================ Popular Producers ================= */
 .popular-brands {
 	margin: 0;
 	padding: 0;
@@ -271,7 +309,8 @@ p.login a {
 	display: block;
 	width: 220px;
 	height: 145px;
-	background-color: #eaeaea;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
 }
 
 /* ================ // Popular Producers ================= */
@@ -339,6 +378,14 @@ p.login a {
 	background: url("../img/delivery.png") no-repeat top right;
 }
 
+.guarantee {	
+	background: url("../img/guarantee.png") no-repeat top right;
+}
+
+.credit {	
+	background: url("../img/credit.png") no-repeat top right;
+}
+
 /* ================ // Services ================= */
 
 /* ================ Information ================= */
@@ -361,6 +408,13 @@ p.login a {
 }
 
 /* ================ // Information ================= */
+
+
+/* ================ CATALOG ================= */
+
+.
+
+/* ================ // CATALOG ================= */
 
 /* ================ Footer ================= */
 .main-footer {
@@ -419,7 +473,7 @@ p.login a {
 }
 
 .footer-copywrite {
-
+	margin: 0;
 }
 
 .footer-social {
