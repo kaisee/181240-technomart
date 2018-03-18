@@ -130,8 +130,12 @@ p.login a {
 }
 
 p.login a:hover,
-p.login a:active {
+p.login a:focus {
 	color: #ee3643;
+}
+
+p.login a:active {
+	color: rgba(0, 0, 0, .3);
 }
 
 .login-entered .user-name {
@@ -274,7 +278,7 @@ p.login a:active {
 	line-height: 30px;
 }
 
-.promo-block-item a {
+.promo-block-item .promo-block-button {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
@@ -282,6 +286,15 @@ p.login a:active {
 	text-decoration: none;
 	background-color: rgba(0, 0, 0, .1);
 	border-radius: 3px;
+}
+
+.promo-block-item .promo-block-button:hover,
+.promo-block-item .promo-block-button:focus {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.promo-block-item .promo-block-button:active {
+	background-color: rgba(0, 0, 0, .3);
 }
 
 /* ================ Slider ================= */
@@ -336,6 +349,11 @@ p.login a:active {
 	text-align: center;
 	background-color: #fff;
 	border: 1px solid #eaeaea;
+}
+
+.product-list-item:hover,
+.product-list-item:focus {
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
 .product-title {
@@ -779,6 +797,15 @@ textarea {
 	background-color: #ee3643;
 	border-radius: 3px;
 	border: none;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #ca2c37;
+}
+
+.button:active {
+	background-color: #ba2732;
 }
 
 /* ================ // Main Content ================= */
