@@ -98,7 +98,7 @@ p.login a {
 	
 }
 
-.login ul.login-menu {
+.login-menu {
 	margin: 0;
 	padding: 0;
 }
@@ -513,6 +513,19 @@ input[type="range"] {
 	background-color: #ee3643;
 }
 /* // Pagination */
+
+/*Product Info*/
+.product-info {
+	background-color: #f2f6f8;
+}
+
+.product-info p {
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+}
+/* // Product Info*/
 
 /* ================ // CATALOG ================= */
 
