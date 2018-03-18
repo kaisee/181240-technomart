@@ -29,10 +29,31 @@ body {
 	box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
 }
 
+.main-logo:hover,
+.main-logo:focus {
+	background-color: #ca2c37;
+	cursor: pointer;
+}
+
+.main-logo:active {
+	background-color: #ba2732;
+}
+
 input[type="search"] {
 	color: #fff;
 	background-color: transparent;
 	border: none;
+	outline: none;
+}
+
+input[type="search"]:hover {
+	background-color: #212a3a;
+}
+
+input[type="search"]:focus {
+	background-color: #ffffff;
+	color: #000;
+	outline: none;
 }
 
 .user-block {
@@ -48,10 +69,24 @@ input[type="search"] {
 	color: #fff;
 	font-size: 17px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .user-block .order-registration {
 	background-color: #63a63e;
+}
+
+.user-block .order-registration:hover,
+.user-block .order-registration:focus {
+	background-color: #5fbb2d;
+}
+
+.user-block .order-registration:active {
+	background-color: #518534;
+}
+
+.added-products {
+	background-color: #ee3643;
 }
 
 /* ===================== // Top Menu ======================= */
@@ -59,7 +94,7 @@ input[type="search"] {
 
 /* ===================== Info Section ======================= */
 .info-section {
-
+	background-color: #f2f6f8;
 }
 
 .header-slogan {
@@ -98,6 +133,15 @@ p.login a {
 	
 }
 
+.login .user-name:hover,
+.login .user-name:focus {
+
+}
+
+.login .user-name:active {
+	color: rgba(0, 0, 0, .3);
+}
+
 .login-menu {
 	margin: 0;
 	padding: 0;
@@ -110,6 +154,15 @@ p.login a {
 .login-menu a {
 	line-height: 18px;
 	color: #32425c;
+}
+
+.login-menu a:hover,
+.login-menu a:active {
+	color: #ee3643;
+}
+
+.login-menu a:active {
+	color: rgba(50, 66, 92, .3);
 }
 
 /* ===================== // Info Section ======================= */
