@@ -133,6 +133,8 @@ p.login a {
 	text-decoration: none;
 }
 
+
+
 /* ===================== Main Navigation ======================= */
 .main-navigation {
 	background-color: #32425c;
@@ -412,7 +414,49 @@ p.login a {
 
 /* ================ CATALOG ================= */
 
-.
+.filter {
+	font-family: "PT Sans";
+	text-transform: uppercase;
+	
+}
+
+.filter fieldset {
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.filter legend {
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+input[type="range"] {
+	background-color: #f7f3ec;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.filter ul {
+	margin: 0;
+	padding: 0;
+}
+
+.filter li {
+	list-style: none;
+}
+
+.filter-button {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+}
 
 /* ================ // CATALOG ================= */
 
@@ -546,6 +590,17 @@ textarea {
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
 }
 
+
+
+.category-heading {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+	background-color: #f2f6f8;
+}
+
 .heading-group {
 	background-color: #f9f5f0;
 }
@@ -562,6 +617,17 @@ textarea {
 	color: #000000;
 	font-weight: 400;
 	text-transform: uppercase;
+}
+
+.catalog-title {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #f7f3ec;
+	border-radius: 3px;
 }
 
 .button {
