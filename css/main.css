@@ -129,16 +129,24 @@ p.login a {
 	background-color: #fff;
 }
 
-.login .user-name {
-	
+p.login a:hover,
+p.login a:active {
+	color: #ee3643;
 }
 
-.login .user-name:hover,
-.login .user-name:focus {
+.login-entered .user-name {
+	font-size: 21px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+.login-entered .user-name:hover,
+.login-entered .user-name:focus {
 
 }
 
-.login .user-name:active {
+.login-entered .user-name:active {
 	color: rgba(0, 0, 0, .3);
 }
 
@@ -207,6 +215,16 @@ p.login a {
 	font-size: 17px;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	background-color: #293449;
+}
+
+.site-navigation a:active {
+	background-color: #1d2739;
+	color: rgba(255, 255, 255, .5);
 }
 
 /* =============== // Main Navigation ================ */
