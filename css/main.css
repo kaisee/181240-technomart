@@ -458,6 +458,62 @@ input[type="range"] {
 	border-radius: 3px;
 }
 
+/* Сортировка */
+
+.sorting {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.sorting li {
+	list-style: none;
+}
+
+.sorting a {
+	color: rgba(0, 0, 0, .3);
+	text-decoration: none;
+	border-bottom: 1px dotted #ee3643;
+}
+
+.sorting-item-current a {
+	color: #ee3643;
+	border-bottom: none;
+}
+
+/* // Сортировка */
+
+/* Pagination */
+.pagination-list {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.pagination-list .pagination-item {
+	list-style: none;
+}
+
+.pagination-item a {
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+}
+
+.pagination-item-current a {
+	color: #ffffff;
+	background-color: #ee3643;
+}
+/* // Pagination */
+
 /* ================ // CATALOG ================= */
 
 /* ================ Footer ================= */
