@@ -450,6 +450,11 @@ p.login a:active {
 	text-decoration: none;
 }
 
+.tab-item a:hover,
+.tab-item a:focus {
+	background-color: #293449;
+}
+
 .tab-item-current a {
 	color: #32425c;
 	background-color: #ffffff;
@@ -654,7 +659,17 @@ input[type="range"] {
 }
 
 .footer-menu-item a {
-	color: #f3f7f9;
+	color: #f1f5f7;
+	text-decoration: none;
+}
+
+.footer-menu-item a:hover,
+.footer-menu-item a:focus {
+	text-decoration: underline;
+}
+
+.footer-menu-item a:active {
+	color: rgba(241, 245, 247, .5);
 	text-decoration: none;
 }
 
@@ -670,6 +685,16 @@ input[type="range"] {
 .categories-list-item a {
 	text-decoration: none;
 	color: #ffd180;
+}
+
+.categories-list-item a:hover,
+.categories-list-item a:focus {
+	text-decoration: underline;
+}
+
+.categories-list-item a:active {
+	color: rgba(255, 209, 128, .5);
+	text-decoration: none;
 }
 
 .footer-contacts {
@@ -706,8 +731,28 @@ input[type="range"] {
 	text-decoration: none;
 }
 
+.footer-feedback a:hover,
+.footer-feedback a:focus {
+	text-decoration: underline;
+}
+
+.footer-feedback a:active {
+	color: #ee3643;
+	text-decoration: none;
+}
+
 .footer-developer a {
 	color: #ffd180;
+	text-decoration: none;
+}
+
+.footer-developer a:hover,
+.footer-developer a:focus {
+	text-decoration: underline;
+}
+
+.footer-developer a:active {
+	color: #ee3643;
 	text-decoration: none;
 }
 
@@ -756,6 +801,18 @@ textarea {
 .modal-map {
 	width: 943px;
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
+}
+
+.modal-cart b {
+	color: #000000;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.modal-cart .button-to-shop {
+	background-color: #fff;
+	color: #000;
 }
 
 
