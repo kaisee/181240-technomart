@@ -144,20 +144,37 @@ input[type="search"]:focus {
 
 /* ===================== Info Section ======================= */
 .info-section {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-top: 46px;
+	padding-bottom: 44px;
 	background-color: #f2f6f8;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .header-slogan {
+	width: 196px;
+	margin-left: 53px;
 	line-height: 23px;
 	color: #ee3643;
 	font-style: italic;
 }
 
 .header-contacts {
-
+	width: 270px;
+	text-align: center;
 }
 
 .header-contacts a {
+	display: block;
+	width: 264px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 8px;
 	font-size: 21px;
 	color: #ee3643;
 	text-decoration: none;
@@ -166,17 +183,40 @@ input[type="search"]:focus {
 }
 
 .header-contacts p {
+	margin: 0;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
 	color: #32425c;
 }
 
+p.login {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	width: 281px;
+	margin: 0;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
 p.login a {
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 13px;
+	padding-right: 25px;
+	padding-left: 25px;
 	font-size: 21px;
 	color: #000000;
 	text-decoration: none;
 	background-color: #fff;
+}
+
+p.login .login-button {
+	padding-left: 48px;
 }
 
 p.login a:hover,
