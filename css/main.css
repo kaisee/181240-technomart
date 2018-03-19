@@ -315,6 +315,7 @@ p.login a:active {
 
 .site-navigation li {
 	list-style: none;
+	flex-grow: 1;
 }
 
 .site-navigation a {
@@ -344,48 +345,68 @@ p.login a:active {
 /* ================ Main Content ================= */
 
 .promo-block {
-
+	padding-top: 60px;
+	padding-bottom: 53px;
 }
 
 .promo-block-list {
 	margin: 0;
 	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .promo-block-item {
 	width: 300px;
 	height: 123px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-top: 26px;
+	padding-bottom: 22px;
+	padding-left: 23px;
 	list-style: none;
 	color: #ffffff;
+	box-sizing: border-box;
 }
 
 .promo-block-item:first-child {
-	background-color: #ffbf47;
+	background: #ffbf47 url("../img/icon-1.svg") no-repeat 213px 31px;
 }
 
 .promo-block-item:nth-child(2) {
-	background-color: #3bbce3;
+	background: #3bbce3 url("../img/icon-2.svg") no-repeat 213px 31px;
 }
 
 .promo-block-item:nth-child(3) {
-	background-color: #dc91d8;
+	background: #dc91d8 url("../img/icon-3.svg") no-repeat 213px 31px;
 }
 
 .promo-block-item:nth-child(4) {
-	background-color: #8ed78f;
+	background: #8ed78f url("../img/icon-4.svg") no-repeat 213px 31px;
 }
 
 .promo-block-item:nth-child(5) {
-	background-color: #ffc047;
+	background: #ffc047 url("../img/icon-5.svg") no-repeat 213px 31px;
 }
 
 .promo-block-item h3 {
+	margin: 0;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 30px;
 }
 
 .promo-block-item .promo-block-button {
+	width: 135px;
+	margin-top: auto;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
