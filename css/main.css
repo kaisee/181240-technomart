@@ -465,9 +465,25 @@ p.login a:active {
 
 
 /* ================ Popular Products ================= */
+.popular-items {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .popular-items-list {
 	margin: 0;
 	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .product-list-item {
@@ -955,6 +971,11 @@ textarea {
 }
 
 .heading-group {
+	margin: 0;
+	margin-bottom: 20px;
+	padding-top: 33px;
+	padding-bottom: 35px;
+	padding-left: 30px;
 	background-color: #f9f5f0;
 }
 
