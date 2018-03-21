@@ -608,18 +608,40 @@ p.login a:active {
 /* ================ Services ================= */
 
 .services {
+	padding-top: 68px;
+	padding-bottom: 102px;
 	background-color: #f4f8f9;
 }
 
-.services p {
+.services .section-title + p {
+	margin: 0;
+	margin-bottom: 74px;
+	width: 400px;
 	font-family: "PT Sans";
 	font-size: 13px;
+	line-height: 24px;
 	color: #000000;
+}
+
+.services-slider {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+	background: url("../img/background-shadow.png") no-repeat -10px -300px;
 }
 
 .services-tabs {
 	margin: 0;
 	padding: 0;
+	width: 240px;
 }
 
 .tab-item {
@@ -632,6 +654,10 @@ p.login a:active {
 }
 
 .tab-item a {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 21px;
+	padding-left: 23px;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 30px;
@@ -650,11 +676,16 @@ p.login a:active {
 }
 
 .services-slides {
-
+	width: 620px;
 }
 
-.services-slides div  {
-	width: 800px;
+.services-slides > div  {
+	width: 620px;
+	min-height: 170px;
+}
+
+.services-slide-content {
+	width: 300px;
 }
 
 .services-slides .slide-title {
@@ -669,11 +700,13 @@ p.login a:active {
 	color: #000000;
 }
 
-.delivery {	
+.delivery {
+	display: none;
 	background: url("../img/delivery.png") no-repeat top right;
 }
 
-.guarantee {	
+.guarantee {
+	display: none;	
 	background: url("../img/guarantee.png") no-repeat top right;
 }
 
