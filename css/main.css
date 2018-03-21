@@ -358,12 +358,18 @@ p.login a:active {
 	display: -o-flex;
 	display: flex;
 	flex-wrap: wrap;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+
 }
 
 .promo-block-item {
 	width: 300px;
 	height: 123px;
-	margin-right: 20px;
 	margin-bottom: 20px;
 	padding-top: 26px;
 	padding-bottom: 22px;
@@ -378,26 +384,27 @@ p.login a:active {
 }
 
 .promo-block-item:nth-child(2) {
-	background: #3bbce3 url("../img/icon-2.svg") no-repeat 213px 31px;
+	background: #3bbce3 url("../img/icon-2.svg") no-repeat 197px 33px;
 }
 
 .promo-block-item:nth-child(3) {
-	background: #dc91d8 url("../img/icon-3.svg") no-repeat 213px 31px;
+	background: #dc91d8 url("../img/icon-3.svg") no-repeat 191px 31px;
 }
 
 .promo-block-item:nth-child(4) {
-	background: #8ed78f url("../img/icon-4.svg") no-repeat 213px 31px;
+	background: #8ed78f url("../img/icon-4.svg") no-repeat 196px 26px;
 }
 
 .promo-block-item:nth-child(5) {
-	background: #ffc047 url("../img/icon-5.svg") no-repeat 213px 31px;
+	background: #ffc047 url("../img/icon-5.svg") no-repeat 191px 32px;
 }
 
 .promo-block-item h3 {
 	margin: 0;
+	margin-bottom: 20px;
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 30px;
+	line-height: 24px;
 }
 
 .promo-block-item .promo-block-button {
@@ -427,7 +434,8 @@ p.login a:active {
 
 /* ================ Slider ================= */
 .slider {
-
+	width: 620px;
+	height: 266px;
 }
 
 .slider-inner {
@@ -447,6 +455,7 @@ p.login a:active {
 }
 
 .slide:nth-child(2) {
+	display: none;
 	background: #685c53 url("../img/slider-image-02.jpg") no-repeat top center;
 }
 
