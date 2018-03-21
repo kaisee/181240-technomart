@@ -459,6 +459,22 @@ p.login a:active {
 	background: #685c53 url("../img/slider-image-02.jpg") no-repeat top center;
 }
 
+.slide-content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	padding-top: 27px;
+	padding-bottom: 22px;
+	padding-left: 24px;
+}
+
 .slide h3 {
 	margin: 0;
 	font-size: 36px;
@@ -468,6 +484,10 @@ p.login a:active {
 .slide p {
 	font-size: 18px;
 	line-height: 24px;
+}
+
+.slide-content .button {
+	align-self: flex-end;
 }
 
 /* ================ // Slider ================= */
@@ -1030,9 +1050,13 @@ textarea {
 }
 
 .button {
+	width: 195px;
+	padding-top: 14px;
+	padding-bottom: 14px;
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
+	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #ee3643;
