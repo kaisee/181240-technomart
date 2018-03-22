@@ -531,6 +531,7 @@ p.login a:active {
 .product-list-item {
 	width: 220px;
 	height: 318px;
+	margin-bottom: 20px;
 	list-style: none;
 	text-align: center;
 	background-color: #fff;
@@ -868,7 +869,35 @@ input[type="range"] {
 
 /* Сортировка */
 
+.catalog {
+	width: 700px;
+	min-height: 1142px;
+	padding-bottom: 60px;
+}
+
+.sorting-section {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 20px;
+	background-color: #f7f3ec;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .sorting {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 450px;
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans";
@@ -876,6 +905,12 @@ input[type="range"] {
 	font-weight: 400;
 	line-height: 18px;
 	text-transform: uppercase;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .sorting li {
@@ -891,6 +926,23 @@ input[type="range"] {
 .sorting-item-current a {
 	color: #ee3643;
 	border-bottom: none;
+}
+
+.catalog-list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 /* // Сортировка */
