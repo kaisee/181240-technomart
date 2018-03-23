@@ -31,6 +31,7 @@ body {
 
 
 .top-menu {
+	min-height: 42px;
 	color: #fff;
 	background-color: #293449;
 }
@@ -141,7 +142,7 @@ input[type="search"]:focus {
 
 /* ===================== // Top Menu ======================= */
 
-
+	
 /* ===================== Info Section ======================= */
 .info-section {
 	display: -webkit-flex;
@@ -228,7 +229,27 @@ p.login a:active {
 	color: rgba(0, 0, 0, .3);
 }
 
+.login-entered {
+	width: 310px;
+	min-height: 70px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
 .login-entered .user-name {
+	margin-bottom: 10px;
+	padding-top: 14px;
+	padding-bottom: 11px;
+	padding-left: 47px;
+	padding-right: 65px;
 	font-size: 21px;
 	color: #000000;
 	text-decoration: none;
@@ -247,13 +268,11 @@ p.login a:active {
 .login-menu {
 	margin: 0;
 	padding: 0;
-}
-
-.login-menu li {
-	list-style: none;
+	padding-left: 17px;
 }
 
 .login-menu a {
+	margin-right: 30px;
 	line-height: 18px;
 	color: #32425c;
 }
