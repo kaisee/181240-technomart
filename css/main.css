@@ -976,6 +976,8 @@ input[type="range"] {
 
 /*Product Info*/
 .product-info {
+	padding-top: 67px;
+	padding-bottom: 73px;
 	background-color: #f2f6f8;
 }
 
