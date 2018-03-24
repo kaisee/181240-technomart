@@ -139,6 +139,11 @@ input[type="search"]:focus {
 .added-products {
 	background-color: #ee3643;
 }
+<<<<<<< HEAD
+=======
+
+/* ===================== // Top Menu ======================= */
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 
 /* ===================== // Top Menu ======================= */
 
@@ -218,11 +223,44 @@ p.login a {
 
 p.login .login-button {
 	padding-left: 48px;
+<<<<<<< HEAD
 }
 
 p.login a:hover,
 p.login a:focus {
 	color: #ee3643;
+=======
+}
+
+p.login a:hover,
+p.login a:focus {
+	color: #ee3643;
+}
+
+p.login a:active {
+	color: rgba(0, 0, 0, .3);
+}
+
+.login-entered .user-name {
+	font-size: 21px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+.login-entered .user-name:hover,
+.login-entered .user-name:focus {
+
+}
+
+.login-entered .user-name:active {
+	color: rgba(0, 0, 0, .3);
+}
+
+.login-menu {
+	margin: 0;
+	padding: 0;
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 }
 
 p.login a:active {
@@ -888,6 +926,7 @@ input[type="range"] {
 
 /* Сортировка */
 
+<<<<<<< HEAD
 .catalog {
 	width: 700px;
 	min-height: 1142px;
@@ -917,6 +956,9 @@ input[type="range"] {
 	display: -o-flex;
 	display: flex;
 	width: 450px;
+=======
+.sorting {
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans";
@@ -924,12 +966,15 @@ input[type="range"] {
 	font-weight: 400;
 	line-height: 18px;
 	text-transform: uppercase;
+<<<<<<< HEAD
 	-webkit-flex-direction: row;
 	-moz-flex-direction: row;
 	-ms-flex-direction: row;
 	-o-flex-direction: row;
 	flex-direction: row;
 	justify-content: space-between;
+=======
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 }
 
 .sorting li {
@@ -947,6 +992,7 @@ input[type="range"] {
 	border-bottom: none;
 }
 
+<<<<<<< HEAD
 .catalog-list {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -964,18 +1010,24 @@ input[type="range"] {
 	flex-wrap: wrap;
 }
 
+=======
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 /* // Сортировка */
 
 /* Pagination */
 .pagination-list {
+<<<<<<< HEAD
 	height: 38px;
 	width: 284px;
+=======
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans";
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 18px;
+<<<<<<< HEAD
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -989,10 +1041,13 @@ input[type="range"] {
 	justify-content: space-between;
 	-ms-align-items: flex-start;
 	align-items: flex-start;
+=======
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 }
 
 .pagination-list .pagination-item {
 	list-style: none;
+<<<<<<< HEAD
 	width: 38px;
 	height: 38px;
 	align-items: center;
@@ -1005,6 +1060,11 @@ input[type="range"] {
 	padding-top: 14px;
 	padding-bottom: 13px;
 	text-align: center;
+=======
+}
+
+.pagination-item a {
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 	color: #000000;
 	text-decoration: none;
 	border: 1px solid #e5e5e5;
@@ -1012,6 +1072,7 @@ input[type="range"] {
 }
 
 .pagination-item-current a {
+<<<<<<< HEAD
 	width: 38px;
 	height: 38px;
 	text-align: center;
@@ -1022,12 +1083,20 @@ input[type="range"] {
 .pagination-item-next {
 	width: 140px;
 }
+=======
+	color: #ffffff;
+	background-color: #ee3643;
+}
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 /* // Pagination */
 
 /*Product Info*/
 .product-info {
+<<<<<<< HEAD
 	padding-top: 67px;
 	padding-bottom: 73px;
+=======
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 	background-color: #f2f6f8;
 }
 
@@ -1160,6 +1229,13 @@ input[type="range"] {
 .categories-list-item a:active {
 	color: rgba(255, 209, 128, .5);
 	text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+
+.footer-contacts {
+	margin: 0;
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 }
 
 .footer-bottom {
@@ -1228,10 +1304,13 @@ input[type="range"] {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 .footer-developer p {
 	margin: 0;
 }
 
+=======
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 .footer-developer a {
 	color: #ffd180;
 	text-decoration: none;
@@ -1357,8 +1436,13 @@ textarea {
 
 .button {
 	width: 195px;
+<<<<<<< HEAD
 	padding-top: 10px;
 	padding-bottom: 10px;
+=======
+	padding-top: 14px;
+	padding-bottom: 14px;
+>>>>>>> d5f42af1059c4f18ae1ccefa56d9b7234229cac9
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
