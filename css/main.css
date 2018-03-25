@@ -412,19 +412,44 @@ p.login a:active {
 	margin: 0;
 	padding: 0;
 	min-height: 410px;
-	display: -webkit-inline-flex;
-	display: -moz-inline-flex;
-	display: -ms-inline-flex;
-	display: -o-inline-flex;
-	display: inline-flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 	flex-wrap: wrap;
-/*	-webkit-flex-direction: row;
+	-webkit-flex-direction: row;
 	-moz-flex-direction: row;
 	-ms-flex-direction: row;
-	-o-flex-direction: row;*/
+	-o-flex-direction: row;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: space-between;
+}
+
+.promo-block-inner {
+	width: 940px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row
+	justify-content: flex-ends;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+}
+
+.promo-block-items {
+	width: 300px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
 }
 
 .promo-block-item {
@@ -496,6 +521,7 @@ p.login a:active {
 .slider {
 	width: 620px;
 	height: 266px;
+	margin-right: 20px;
 	display: -webkit-inline-flex;
 	display: -moz-inline-flex;
 	display: -ms-inline-flex;
@@ -893,15 +919,33 @@ p.login a:active {
 
 .filter legend {
 	padding-top: 20px;
+	margin-bottom: 17px;
 	font-size: 17px;
 	font-weight: 700;
 	line-height: 30px;
 }
 
 input[type="range"] {
-	background-color: #f7f3ec;
+	width: 220px;
+	padding-top: 39px;
+	padding-bottom: 39px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #f7f3ec;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
+}
+
+.price-range span {
+	width: 95px;
+	height: 38px;
+	display: inline-block;
+	font-family: "PT Sans";
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 18px;
+	background-color: #f7f3ec;
+	border-radius: 3px;
 }
 
 .filter ul {
@@ -910,7 +954,12 @@ input[type="range"] {
 }
 
 .filter li {
+	margin-bottom: 30px;
 	list-style: none;
+}
+
+.filter li:last-child {
+	margin-bottom: 0;
 }
 
 .filter-button {
