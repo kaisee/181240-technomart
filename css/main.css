@@ -732,6 +732,7 @@ p.login a:active {
 	position: relative;
 	width: 80px;
 	margin: 10px auto;
+	margin-top: auto;
 	padding: 11px 30px;
 	margin-bottom: 20px;
 	color: #ffffff;
