@@ -608,16 +608,46 @@ p.login a:active {
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	font-family: "PT Sans";
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.popular-items-list .flag {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 60px;
+	height: 60px;
+	text-indent: -1000px;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+.popular-items-list .flag-new {
+	background: url("img/new-flag.png") no-repeat 0 0;
 }
 
 .product-list-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
 	width: 220px;
 	height: 318px;
+	padding-top: 20px;
 	margin-bottom: 20px;
 	list-style: none;
 	text-align: center;
-	background-color: #fff;
+	background-color: transparent;
 	border: 1px solid #eaeaea;
+	flex-direction: column;
+	justify-content: flex-start;
+
 }
 
 .product-list-item:hover,
@@ -625,33 +655,101 @@ p.login a:active {
 	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
+.product-list-item .actions {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 218px;
+	height: 88px;
+	padding: 40px 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 10;
+}
+
+.product-list-item:hover .actions {
+	display: block;
+}
+
+.product-list-item .actions .buy,
+.product-list-item .actions .bookmarks {
+	display: block;
+	width: 129px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+	padding: 7px 0;
+	font-family: Cuprum;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	border:3px solid #63a63e;
+    border-bottom-color:#367315; 
+    background-color:#63a63e;
+    border-radius: 3px;
+}
+
+.product-list-item .actions .bookmarks {
+	color: #32425c;
+	background-color: #fff;
+	border: 3px solid #63a63e;
+}
+
+.product-list-item .product-image {
+	width: 218px;
+	height: 168px;
+	order: 0;
+}
+
+.product-list-item .product-image img {
+	max-width: 100%;
+}
+
 .product-title {
-	font-family: "PT Sans";
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 20px;
 	color: #000000;
 	text-decoration: none;
+	order: 1;
 }
 
-.product-price {
-	font-family: "PT Sans";
-	font-size: 17px;
-	line-height: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
-
+.product-title h3 {
+	margin: 0;
+	margin-bottom: 18px;
 }
 
-.product-price .old-price {
+.product-list-item .discount {
 	color: #a9a9a9;
 	text-decoration: line-through;
+	order: 2
 }
 
-.product-price .actually-price {
+.product-list-item .actually-price {
+	position: relative;
+	width: 80px;
+	margin: 10px auto;
+	padding: 11px 30px;
+	margin-bottom: 20px;
 	color: #ffffff;
+	order: 3;
 	text-transform: uppercase;
 	background-color: #ee3643;
+	border-radius: 3px;
+}
+
+.product-list-item .actually-price::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: -19px;
+	width: 0;
+	height: 0;
+	border: 20px solid white;
+	border-left-color: #ee3643;
 }
 /* ================ // Popular Products ================= */
 
