@@ -476,11 +476,11 @@ p.login a:active {
 	background: #dc91d8 url("../img/icon-3.svg") no-repeat 191px 31px;
 }
 
-.promo-block-item:nth-child(5) {
+.promo-block-items .promo-block-item:nth-child(1) {
 	background: #8ed78f url("../img/icon-4.svg") no-repeat 196px 26px;
 }
 
-.promo-block-item:nth-child(6) {
+.promo-block-items .promo-block-item:nth-child(2) {
 	background: #ffc047 url("../img/icon-5.svg") no-repeat 191px 32px;
 }
 
