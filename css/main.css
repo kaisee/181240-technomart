@@ -1092,9 +1092,10 @@ p.login a:active {
 	width: 220px;
 	min-height: 746px;
 	font-family: "PT Sans";
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
 }
+
+
 
 .filter fieldset {	
 	padding-bottom: 25px;
@@ -1111,7 +1112,6 @@ p.login a:active {
 }
 
 input[type="range"] {
-	width: 220px;
 	padding-top: 39px;
 	padding-bottom: 39px;
 	padding-left: 20px;
@@ -1119,6 +1119,7 @@ input[type="range"] {
 	background: #f7f3ec;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
+	box-sizing: border-box;
 }
 
 .price-range span {
@@ -1334,6 +1335,7 @@ input[type="range"] {
 }
 
 .footer-top {
+	position: relative;
 	padding-top: 42px;
 	padding-bottom: 53px;
 	font-size: 18px;
@@ -1358,11 +1360,16 @@ input[type="range"] {
 }
 
 .footer-logo {
-	display: none;
+	position: absolute;
+	top: 0;
+	width: 220px;
+	height: 63px;
+	padding-top: 21px;
 }
 
 .footer-contacts {
 	width: 330px;
+	min-height: 42px;
 	margin: 0;
 	padding-top: 10px;	
 	align-self: flex-end;
