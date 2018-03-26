@@ -543,8 +543,30 @@ p.login a:active {
 }
 
 .site-navigation li {
+	position: relative;
 	list-style: none;
 	flex-grow: 1;
+}
+
+.breadcrimbs li {
+	list-style: none;
+	flex-grow: 1;
+}
+
+.breadcrumbs a.page-home {
+	position: relative;
+	font-size: 0;	
+}
+
+.breadcrumbs li::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: "";
+	width: 8px;
+	height: 12px;
+	background: url("../img/icon-right-small.svg") no-repeat top center;
 }
 
 .site-navigation a {
