@@ -288,6 +288,7 @@ p.login {
 }
 
 p.login a {
+	position: relative;
 	display: block;
 	padding-top: 12px;
 	padding-bottom: 13px;
@@ -306,6 +307,17 @@ p.login .login-button {
 p.login a:hover,
 p.login a:focus {
 	color: #ee3643;
+}
+
+p.login .login-button .icon-login {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+p.login .login-button:hover .icon-login,
+p.login .login-button:active .icon-login {
+	color: #32425c;
 }
 
 p.login a:active {
