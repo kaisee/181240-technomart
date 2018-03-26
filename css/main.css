@@ -26,6 +26,85 @@ body {
 	background-color: #f3f7f8;
 }
 
+.category-heading {
+	padding-top: 32px;
+	padding-bottom: 34px;
+	padding-left: 30px;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+	background-color: #f2f6f8;
+}
+
+.heading-group {
+	position: relative;
+	margin: 0;
+	margin-bottom: 20px;
+	padding-top: 33px;
+	padding-bottom: 35px;
+	padding-left: 30px;
+	background-color: #f9f5f0;
+}
+
+.heading-group .button {
+	position: absolute;
+	top: 25px;
+	right: 30px;
+}
+
+.heading-group span {
+	font-size: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.section-title {
+	margin: 0;
+	font-family: Cuprum;
+	font-size: 30px;
+	color: #000000;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.catalog-title {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #f7f3ec;
+	border-radius: 3px;
+}
+
+.button {
+	width: 195px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ee3643;
+	border-radius: 3px;
+	border: none;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #ca2c37;
+}
+
+.button:active {
+	background-color: #ba2732;
+}
 
 /* ===================== Top Menu ======================= */
 
@@ -213,8 +292,6 @@ input[type="search"]:focus .icon-search {
 	left: 18px;
 	opacity: 0.3;
 }
-
-/* ===================== // Top Menu ======================= */
 
 /* ===================== // Top Menu ======================= */
 
@@ -1115,17 +1192,29 @@ p.login a:active {
 }
 
 .company-information ul {
+	margin: 0;
 	margin-bottom: 37px;
 	font-family: Cuprum;
 }
 
 .company-information li {
+	position: relative;
 	margin-bottom: 20px;
 	font-family: Cuprum;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 20px;
 	list-style-type: none;
+}
+
+.company-information li::before {
+	position: absolute;
+	left: -40px;
+	top: 8px;
+	content: "";
+	width: 25px;
+	height: 2px;
+	background-color: #ee3643;
 }
 
 .contacts {
@@ -1142,6 +1231,23 @@ p.login a:active {
 .map-inner img {
 	width: 300px;
 	height: 158px;
+}
+
+.information .button {
+	width: 220px;
+	height: 38px;
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	font-family: Cuprum;
+	line-height: 18px;
+	box-sizing: border-box;
+}
+
+.contacts .button {
+	display: block;
+	width: 300px;
 }
 
 /* ================ // Information ================= */
@@ -1696,88 +1802,6 @@ textarea {
 .modal-cart .button-to-shop {
 	background-color: #fff;
 	color: #000;
-}
-
-
-
-.category-heading {
-	padding-top: 32px;
-	padding-bottom: 34px;
-	padding-left: 30px;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 30px;
-	color: #32425c;
-	text-transform: uppercase;
-	background-color: #f2f6f8;
-}
-
-.heading-group {
-	position: relative;
-	margin: 0;
-	margin-bottom: 20px;
-	padding-top: 33px;
-	padding-bottom: 35px;
-	padding-left: 30px;
-	background-color: #f9f5f0;
-}
-
-.heading-group .button {
-	position: absolute;
-	top: 25px;
-	right: 30px;
-}
-
-.heading-group span {
-	font-size: 30px;
-	color: #32425c;
-	text-transform: uppercase;
-}
-
-.section-title {
-	margin: 0;
-	font-family: Cuprum;
-	font-size: 30px;
-	color: #000000;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-.catalog-title {
-	font-family: "PT Sans";
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
-	background-color: #f7f3ec;
-	border-radius: 3px;
-}
-
-.button {
-	width: 195px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #ee3643;
-	border-radius: 3px;
-	border: none;
-}
-
-.button:hover,
-.button:focus {
-	background-color: #ca2c37;
-}
-
-.button:active {
-	background-color: #ba2732;
 }
 
 /* ================ // Main Content ================= */
