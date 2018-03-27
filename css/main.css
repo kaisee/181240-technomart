@@ -543,26 +543,30 @@ p.login a:active {
 }
 
 .site-navigation li {
-	position: relative;
+	
 	list-style: none;
 	flex-grow: 1;
 }
 
-.breadcrimbs li {
-	list-style: none;
-	flex-grow: 1;
+.breadcrumbs {
+	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 .breadcrumbs a.page-home {
-	position: relative;
 	font-size: 0;	
 }
 
-.breadcrumbs li::after {
-	display: block;
+.breadcrumbs li {
+	position: relative;
+	list-style: none;
+}
+
+.breadcrumbs li a::after {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 0;
+	left: 28px;
 	content: "";
 	width: 8px;
 	height: 12px;
@@ -1098,66 +1102,33 @@ p.login a:active {
 	background: url("../img/background-shadow.png") no-repeat -10px -300px;
 }
 
-.services-tabs {
-	margin: 0;
-	padding: 0;
+.services-controls {
+	min-height: 182px;
 	width: 240px;
-}
-
-.tab-item {
-	list-style: none;
-}
-
-.tab-item {
-	background-color: #32425c;
-	box-shadow: inset 0 -1px 0 #33445a;
-}
-
-.tab-item a {
-	display: block;
-	padding-top: 20px;
-	padding-bottom: 21px;
-	padding-left: 23px;
+	font-family: Cuprum;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 30px;
+}
+
+.services-controls label {
+	display: block;
+	height: 61px;
+	padding: 21px 23px;
+	background-color: #32425c;
 	color: #ffffff;
-	text-decoration: none;
+	border-bottom: #33445a;
+	box-sizing: border-box;
+	cursor: pointer;
 }
 
-.tab-item a:hover,
-.tab-item a:focus {
-	background-color: #293449;
+.services-controls label:hover {
+
 }
 
-.tab-item-current a {
+.services-controls input:checked label {
 	color: #32425c;
-	background-color: #ffffff;
-}
-
-.services-slides {
-	width: 620px;
-}
-
-.services-slides > div  {
-	width: 620px;
-	min-height: 170px;
-}
-
-.services-slide-content {
-	width: 300px;
-}
-
-.services-slides .slide-title {
-	font-size: 36px;
-	color: #32425c;
-	text-transform: uppercase;
-}
-
-.services-slides p {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+	background-color: #fff;
 }
 
 .delivery {
@@ -1166,12 +1137,25 @@ p.login a:active {
 }
 
 .guarantee {
-	display: none;	
+	display: none;
 	background: url("../img/guarantee.png") no-repeat top right;
 }
 
 .credit {	
+	display: none;
 	background: url("../img/credit.png") no-repeat top right;
+}
+
+#btn-delivery:checked ~ .services-slides .delivery {
+	display: block;
+}
+
+#btn-guarantee:checked ~ .services-slides .guarantee {
+	display: block;
+}
+
+#btn-credit:checked ~ .services-slides .credit {
+	display: block;
 }
 
 /* ================ // Services ================= */

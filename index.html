@@ -269,18 +269,14 @@
 
 				<!-- Слайдер - Сервисы -->
 				<div class="services-slider">
-					<ul class="services-tabs">
-						<li class="tab-item tab-item-current">
-							<a href="#">Доставка</a>
-						</li>
-						<li class="tab-item">
-							<a href="#">Гарантия</a>
-						</li>
-						<li class="tab-item">
-							<a href="#">Кредит</a>
-						</li>
-					</ul>
-					
+						<input type="radio" id="#btn-delivery" name="tab-button" value="delivery" checked>
+						<input type="radio" id="#btn-guarantee" name="tab-button" value="guarantee">
+						<input type="radio" id="#btn-credit" name="tab-button" value="credit">
+					<div class="services-controls">
+						<label for="tab-button">Доставка</label>
+						<label for="tab-button">Гарантия</label>
+						<label for="tab-button">Кредит</label>
+					</div>				
 					<div class="services-slides">
 						<div class="delivery">
 							<div class="services-slide-content">
