@@ -363,7 +363,7 @@ input[type="search"]:focus {
 	box-sizing: border-box;
 }
 
-.promo-item .flag {
+.flag {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -374,7 +374,7 @@ input[type="search"]:focus {
 	font-size: 0;
 }
 
-.promo-item .flag-new {
+.flag-new {
 	background: url("../img/new-flag.png") no-repeat top center;
 }
 
@@ -472,6 +472,10 @@ input[type="search"]:focus {
 	display: block;
 }
 
+#slide-2:checked ~ .slider-inner .slide:nth-child(2) {
+	display: block;
+}
+
 .slider-heading-group {
 	width: 230px;
 	height: 180px;
@@ -514,3 +518,59 @@ input[type="search"]:focus {
 	margin-top: auto;
 }
 
+/*Популярные товары*/
+
+.popular-items {
+	padding-bottom: 20px;
+}
+
+.section-heading {
+	position: relative;
+	margin-bottom: 20px;
+	padding: 33px 24px 35px 30px;
+	background-color: #f9f5f0;
+}
+
+.section-heading span {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.section-heading .button {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	width: 253px;
+	height: 38px;
+	padding-top: 12px;
+}
+
+.popular-items-list {
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.product-list-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	width: 220px;
+	height: 318px;
+	list-style: none;
+	border: 1px solid #eaeaea;
+
+	flex-direction: column;
+}
