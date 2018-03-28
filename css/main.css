@@ -23,7 +23,7 @@ body {
 
 /* Шапка сайта */
 .main-header {
-	min-height: 320px;
+	padding-bottom: 60px;
 	background-color: #f2f6f8;
 }
 
@@ -41,6 +41,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	flex-shrink: 2;
 }
 
 .main-header .main-logo {
@@ -319,4 +320,93 @@ input[type="search"]:focus {
 	padding: 22px 30px 21px 30px;
 	color: #fff;
 	text-decoration: none;
+}
+
+/*Промо-информация*/
+
+.promo-block {
+	padding-top: 59px;
+	padding-bottom: 53px;
+}
+
+.promo-section {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.promo-item {
+	position: relative;
+	width: 300px;
+	height: 123px;
+	padding: 26px 20px 22px 25px;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.promo-item .flag {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+	display: block;
+	width: 60px;
+	height: 59px;
+	font-size: 0;
+}
+
+.promo-item .flag-new {
+	background: url("../img/new-flag.png") no-repeat top center;
+}
+
+.promo-section .promo-item:nth-child(1) {
+	background: #ffbf47 url("../img/icon-1.svg") no-repeat 213px 31px;
+}
+
+.promo-section .promo-item:nth-child(2) {
+	background: #3bbce3 url("../img/icon-2.svg") no-repeat 197px 33px;
+}
+
+.promo-section .promo-item:nth-child(3) {
+	background: #dc91d8 url("../img/icon-3.svg") no-repeat 191px 31px;
+}
+
+.promo-slider-items .promo-item:nth-child(2) {
+	background: #8ed78f url("../img/icon-4.svg") no-repeat 196px 26px;
+	margin-bottom: 20px;
+}
+
+.promo-slider-items .promo-item:nth-child(3) {
+	background: #ffc047 url("../img/icon-5.svg") no-repeat 191px 32px;
+}
+
+.promo-block h3 {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.promo-block .button {
+	display: block;
+	width: 135px;
+	height: 38px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	box-sizing: border-box;
 }
