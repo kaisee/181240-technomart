@@ -21,6 +21,20 @@ body {
 	font-size: 0;
 }
 
+.button {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #ee3643;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
 /* Шапка сайта */
 .main-header {
 	padding-bottom: 60px;
@@ -337,6 +351,7 @@ input[type="search"]:focus {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 
 .promo-item {
@@ -393,7 +408,7 @@ input[type="search"]:focus {
 	line-height: 1;
 }
 
-.promo-block .button {
+.promo-block .promo-button {
 	display: block;
 	width: 135px;
 	height: 38px;
@@ -410,3 +425,92 @@ input[type="search"]:focus {
 	border-radius: 3px;
 	box-sizing: border-box;
 }
+
+.promo-slider-items {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+/*Слайдер*/
+
+.promo-slider {
+	width: 620px;
+	height: 266px;
+	color: white
+}
+
+.slider-inner {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.slide {
+	display: none;
+	list-style: none;
+	width: 620px;
+	height: 266px;
+	padding-top: 26px;
+	padding-left: 26px;
+	padding-bottom: 22px;
+	box-sizing: border-box;
+}
+
+.slide:nth-child(1) {
+	background: url("../img/slider-image-01.jpg") no-repeat top center;
+}
+
+.slide:nth-child(2) {
+	background: url("../img/slider-image-02.jpg") no-repeat top center;
+}
+
+#slide-1:checked ~ .slider-inner .slide:nth-child(1) {
+	display: block;
+}
+
+.slider-heading-group {
+	width: 230px;
+	height: 180px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.slider-heading-group h3 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.slider-heading-group p {
+	margin: 0;
+	font-family: "PT Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.slider-controls {
+	position: absolute;
+	left: 50%;
+	bottom: 36px;
+}
+
+
+.promo-slider .button {
+	width: 195px;
+	height: 38px;
+	padding-top: 11px;
+	margin-top: auto;
+}
+
